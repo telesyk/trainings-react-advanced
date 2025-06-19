@@ -11,4 +11,4 @@ Display UI text based on selected language.
 
 Provider to wrap the app
 
-\_\_Optional: Add button to switch languages
+**Optional:** Add button to switch languages
