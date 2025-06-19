@@ -6,7 +6,7 @@ import { constraints } from '../constants'
 export default function Login() {
   const { isAuthenticated, toggleAuthentication } = useContext(AuthContext)
   const authentication = isAuthenticated ? 'login' : 'logout'
-  const { button, authText, imgSrc } = constraints[authentication]
+  const { button, authText, imgSrc, className } = constraints[authentication]
 
   return (
     <div className="card card-side bg-base-100 shadow-sm">
@@ -16,7 +16,12 @@ export default function Login() {
       <div className="card-body">
         <h2 className="card-title">{authText}</h2>
         <div className="card-actions justify-end">
-          <Button handleClick={() => toggleAuthentication()}>{button}</Button>
+          <Button
+            className={className}
+            handleClick={() => toggleAuthentication()}
+          >
+            {button}
+          </Button>
         </div>
       </div>
     </div>

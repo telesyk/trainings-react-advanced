@@ -1,6 +1,8 @@
-export default function Button({ children, handleClick }) {
+export default function Button({ children, className, handleClick }) {
+  const classes = `btn ${className}`
+
   return (
-    <button className="btn btn-primary" onClick={handleClick}>
+    <button className={classes} onClick={handleClick}>
       {children}
     </button>
   )

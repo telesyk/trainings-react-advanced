@@ -3,11 +3,11 @@ import { Login } from './components'
 
 function App() {
   return (
-    <AuthProvider>
-      <div className="max-w-lg mx-auto p-8 lg:p-16">
+    <div className="max-w-lg min-h-screen mx-auto grid place-content-center p-8 lg:p-16">
+      <AuthProvider>
         <Login />
-      </div>
-    </AuthProvider>
+      </AuthProvider>
+    </div>
   )
 }
 
