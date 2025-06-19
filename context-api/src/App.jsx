@@ -1,24 +1,22 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import LanguageContext from './LanguageContext'
+import { translations } from './constants'
+import Toolbar from './Toolbar'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [lang, setLang] = useState('ENG')
 
   return (
-    <>
-      <div>
-        {/* <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a> */}
-      </div>
-      <h1 className="text-3xl font-bold underline">Vite + React</h1>
-      <button className="btn btn-primary">Button</button>
-      <button className="btn btn-accent">Button</button>
-    </>
+    <div className="container mx-auto grid grid-rows-2 gap-4">
+      <LanguageContext.Provider value={{ lang, setLang }}>
+        <Toolbar />
+        {lang === translations.en.local ? (
+          <p>{translations.en.greeting}</p>
+        ) : (
+          <p>{translations.de.greeting}</p>
+        )}
+      </LanguageContext.Provider>
+    </div>
   )
 }
 
