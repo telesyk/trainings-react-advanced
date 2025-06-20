@@ -1,13 +1,16 @@
-import { AuthProvider } from './AuthContext'
-import { Login } from './components'
+import { AuthProvider, ThemeProvider } from './context'
+import { Login, Switcher } from './components'
 
 function App() {
   return (
-    <div className="max-w-lg min-h-screen mx-auto grid place-content-center p-8 lg:p-16">
-      <AuthProvider>
-        <Login />
-      </AuthProvider>
-    </div>
+    <ThemeProvider>
+      <div className="max-w-lg min-h-screen mx-auto grid place-content-center gap-8 p-8 lg:p-16">
+        <AuthProvider>
+          <Switcher />
+          <Login />
+        </AuthProvider>
+      </div>
+    </ThemeProvider>
   )
 }
 

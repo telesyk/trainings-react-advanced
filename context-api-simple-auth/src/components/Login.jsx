@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { AuthContext } from '../AuthContext'
+import { AuthContext } from '../context'
 import Button from './Button'
 import { constraints } from '../constants'
 
