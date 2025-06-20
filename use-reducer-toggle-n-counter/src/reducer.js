@@ -5,7 +5,7 @@ import {
   THEME_DARK,
   THEME_LIGHT,
 } from './constants'
-export const initialState = { count: 0, theme: THEME_LIGHT }
+export const initialState = { count: 0, theme: THEME_DARK }
 
 export default function reducer(state, action) {
   switch (action.type) {
