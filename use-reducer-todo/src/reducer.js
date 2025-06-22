@@ -1,12 +1,14 @@
+import { ACTION_TYPE } from './constants'
+
 export const initialState = []
 
 export default function reducer(state, action) {
   switch (action.type) {
-    case 'add':
+    case ACTION_TYPE.add:
       return [...state, payload]
-    case 'toggle':
+    case ACTION_TYPE.toggle:
       return [...state, payload]
-    case 'remove':
+    case ACTION_TYPE.remove:
       return [...state, payload]
     default:
       return state

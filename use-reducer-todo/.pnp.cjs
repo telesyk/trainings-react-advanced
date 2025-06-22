@@ -40,6 +40,7 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:16.2.0"],\
           ["react", "npm:19.1.0"],\
           ["react-dom", "virtual:bfa547e86e853cbcfb9fa76741701451216fdbd3cf48d303cb64aa06750d7d1f8fd872f7e1287796d909728751e75bcd796a77e1b705de639ef6bfa2f7241d84#npm:19.1.0"],\
+          ["react-icons", "virtual:bfa547e86e853cbcfb9fa76741701451216fdbd3cf48d303cb64aa06750d7d1f8fd872f7e1287796d909728751e75bcd796a77e1b705de639ef6bfa2f7241d84#npm:5.5.0"],\
           ["tailwindcss", "npm:4.1.10"],\
           ["use-reducer-todo", "workspace:."],\
           ["vite", "virtual:bfa547e86e853cbcfb9fa76741701451216fdbd3cf48d303cb64aa06750d7d1f8fd872f7e1287796d909728751e75bcd796a77e1b705de639ef6bfa2f7241d84#npm:6.3.5"]\
@@ -2963,6 +2964,28 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-icons", [\
+      ["npm:5.5.0", {\
+        "packageLocation": "../../../../.yarn/berry/cache/react-icons-npm-5.5.0-906730a3cf-10c0.zip/node_modules/react-icons/",\
+        "packageDependencies": [\
+          ["react-icons", "npm:5.5.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:bfa547e86e853cbcfb9fa76741701451216fdbd3cf48d303cb64aa06750d7d1f8fd872f7e1287796d909728751e75bcd796a77e1b705de639ef6bfa2f7241d84#npm:5.5.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-icons-virtual-c72313730a/5/.yarn/berry/cache/react-icons-npm-5.5.0-906730a3cf-10c0.zip/node_modules/react-icons/",\
+        "packageDependencies": [\
+          ["@types/react", "npm:19.1.8"],\
+          ["react", "npm:19.1.0"],\
+          ["react-icons", "virtual:bfa547e86e853cbcfb9fa76741701451216fdbd3cf48d303cb64aa06750d7d1f8fd872f7e1287796d909728751e75bcd796a77e1b705de639ef6bfa2f7241d84#npm:5.5.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-refresh", [\
       ["npm:0.17.0", {\
         "packageLocation": "../../../../.yarn/berry/cache/react-refresh-npm-0.17.0-85b5aa925e-10c0.zip/node_modules/react-refresh/",\
@@ -3335,6 +3358,7 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:16.2.0"],\
           ["react", "npm:19.1.0"],\
           ["react-dom", "virtual:bfa547e86e853cbcfb9fa76741701451216fdbd3cf48d303cb64aa06750d7d1f8fd872f7e1287796d909728751e75bcd796a77e1b705de639ef6bfa2f7241d84#npm:19.1.0"],\
+          ["react-icons", "virtual:bfa547e86e853cbcfb9fa76741701451216fdbd3cf48d303cb64aa06750d7d1f8fd872f7e1287796d909728751e75bcd796a77e1b705de639ef6bfa2f7241d84#npm:5.5.0"],\
           ["tailwindcss", "npm:4.1.10"],\
           ["use-reducer-todo", "workspace:."],\
           ["vite", "virtual:bfa547e86e853cbcfb9fa76741701451216fdbd3cf48d303cb64aa06750d7d1f8fd872f7e1287796d909728751e75bcd796a77e1b705de639ef6bfa2f7241d84#npm:6.3.5"]\
