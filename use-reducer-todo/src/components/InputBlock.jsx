@@ -7,7 +7,11 @@ export default function InputBlock() {
   const { handleListUpdate } = useContext(AppContext)
 
   return (
-    <form className="join w-full p-4" onSubmit={handleListUpdate}>
+    <form
+      className="join w-full p-4"
+      onSubmit={handleListUpdate}
+      data-control="add"
+    >
       <div className="flex-auto">
         <label className="input validator join-item">
           <FaClipboardList className="h-[1em] opacity-50" />

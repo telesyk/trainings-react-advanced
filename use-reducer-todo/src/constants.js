@@ -1,6 +1,6 @@
 export const ACTION_TYPE = {
   add: 'add',
-  toggle: 'toggle',
+  update: 'update',
   remove: 'remove',
 }
 export const INPUT_CONTROL = {
