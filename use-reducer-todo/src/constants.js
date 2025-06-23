@@ -8,3 +8,4 @@ export const INPUT_CONTROL = {
   validatorHint: 'Enter valid "To-do Task Name"',
   placeholder: 'to-do task',
 }
+export const ATTRIBUTE_DATA_CONTROL = 'data-control'

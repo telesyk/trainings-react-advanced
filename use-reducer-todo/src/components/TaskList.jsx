@@ -8,7 +8,7 @@ export default function TaskList() {
   return (
     <ul className="list bg-base-100 rounded-box shadow-md">
       {todoList.map(item => (
-        <TaskItem key={item.date} name={item.name} date={item.rawDate} />
+        <TaskItem key={item.id} props={item} />
       ))}
     </ul>
   )

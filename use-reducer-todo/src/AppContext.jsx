@@ -1,21 +1,28 @@
-import { createContext, useReducer } from 'react'
+import { createContext, useEffect, useReducer, useState } from 'react'
 import reducer, { initialState } from './reducer'
 
 export const AppContext = createContext()
 
 export const AppProvider = ({ children }) => {
+  const [todoList, setTodoList] = useState([])
   const [state, dispatch] = useReducer(reducer, initialState)
 
-  const handleListUpdate = event => {
-    event.preventDefault()
+  useEffect(() => {
+    setTodoList(state)
+  }, [state])
 
-    const eventType = event.currentTarget.dataset.control
-    console.log('[DEBUG]', eventType)
-    // dispatch({ type: eventType })
+  const handleListUpdate = (event, payload, target = null) => {
+    if (event !== null) {
+      event.preventDefault()
+    }
+    const eventType =
+      event?.currentTarget?.dataset?.control || target.dataset.control
+
+    dispatch({ type: eventType, payload: payload || [] })
   }
 
   return (
-    <AppContext.Provider value={{ todoList: state, handleListUpdate }}>
+    <AppContext.Provider value={{ todoList, handleListUpdate }}>
       {children}
     </AppContext.Provider>
   )
