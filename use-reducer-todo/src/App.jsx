@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { AppProvider } from './AppContext'
 import { Container, InputBlock, TaskList } from './components'
 
