@@ -10,11 +10,11 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+.yarn
 *.local
 
 # Editor directories and files
 .vscode
-.yarn
 .idea
 .DS_Store
 *.suo
