@@ -1,6 +1,6 @@
-import { PATHS } from './constants'
-import { snakeCaseToSeparate } from './utils'
-import { RouterContext } from './RouterContext'
+import { PATHS } from '../constants'
+import { snakeCaseToSeparate } from '../utils'
+import { RouterContext } from '../RouterContext'
 import { useContext } from 'react'
 
 export default function Navbar() {

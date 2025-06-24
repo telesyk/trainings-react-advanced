@@ -1,16 +1,11 @@
-import { createContext, useEffect, useReducer, useState } from 'react'
+import { createContext, useReducer } from 'react'
 import reducer, { initialState } from './reducer'
 import { cleanPath } from './utils'
 
 export const RouterContext = createContext()
 
 export function RouterProvider({ children }) {
-  const [currentRout, setRout] = useState('')
   const [state, dispatch] = useReducer(reducer, initialState)
-
-  useEffect(() => {
-    setRout(state.currentPath)
-  }, [state.currentPath])
 
   const handleRout = event => {
     event.preventDefault()
@@ -21,7 +16,9 @@ export function RouterProvider({ children }) {
   }
 
   return (
-    <RouterContext.Provider value={{ currentRout, handleRout }}>
+    <RouterContext.Provider
+      value={{ currentRout: state.currentPath || '/', handleRout }}
+    >
       {children}
     </RouterContext.Provider>
   )

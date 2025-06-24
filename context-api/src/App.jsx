@@ -7,7 +7,7 @@ function App() {
   const [lang, setLang] = useState('ENG')
 
   return (
-    <div className="container mx-auto grid grid-rows-2 gap-4">
+    <div className="max-w-md mx-auto grid grid-rows-2 gap-4">
       <LanguageContext.Provider value={{ lang, setLang }}>
         <Toolbar />
         {lang === translations.en.local ? (
