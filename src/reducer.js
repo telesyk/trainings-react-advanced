@@ -1,18 +1,18 @@
 import { PATHS } from './constants'
 
-const pathsSet = new Set(PATHS)
-
 export const initialState = { paths: PATHS }
 
 export default function reducer(state, action) {
   const { type } = action
+  const activePath = PATHS.find(path => type === path)
 
-  if (pathsSet.has(type)) {
-    return {
-      ...state,
-      currentPath: type,
-    }
+  switch (type) {
+    case activePath:
+      return {
+        ...state,
+        currentPath: type,
+      }
+    default:
+      return state
   }
-
-  return state
 }
