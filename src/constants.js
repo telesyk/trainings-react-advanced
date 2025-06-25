@@ -8,3 +8,6 @@ export const PATHS = [
   PATH_USE_REDUSER_TOGGLE_N_COUTER,
   PATH_USE_REDUSER_TODO,
 ]
+export const ACTION_THEME = 'theme'
+export const THEME_DARK = 'dracula'
+export const THEME_LIGHT = 'retro'

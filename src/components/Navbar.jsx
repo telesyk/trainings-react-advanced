@@ -2,6 +2,7 @@ import { PATHS } from '../constants'
 import { snakeCaseToSeparate } from '../utils'
 import { RouterContext } from '../RouterContext'
 import { useContext } from 'react'
+import Switcher from './Switcher'
 
 export default function Navbar() {
   const { handleRout } = useContext(RouterContext)
@@ -12,6 +13,7 @@ export default function Navbar() {
         <a href="/" className="btn btn-ghost text-xl">
           daisyUI
         </a>
+        <Switcher />
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
