@@ -25,7 +25,7 @@ export default function Container() {
       return <Page4 />
     default:
       return (
-        <div className="hero bg-base-200 min-h-screen">
+        <div className="hero bg-base-200 flex-1">
           <div className="hero-content text-center">
             <div className="max-w-md">
               <h1 className="text-5xl font-bold">Hello there</h1>

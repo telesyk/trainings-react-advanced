@@ -1,5 +1,4 @@
-import { Container } from './components'
-import Navbar from './components/Navbar'
+import { Container, Footer, Navbar } from './components'
 import { RouterProvider } from './RouterContext'
 
 function App() {
@@ -7,6 +6,7 @@ function App() {
     <RouterProvider>
       <Navbar />
       <Container />
+      <Footer />
     </RouterProvider>
   )
 }
