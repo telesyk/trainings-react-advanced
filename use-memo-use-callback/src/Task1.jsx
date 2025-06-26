@@ -18,6 +18,7 @@ export default function Factorial({ number, action }) {
   const result = useMemo(() => heavyFactorial(number), [number])
   return (
     <>
+      <h1 className="text-2xl">🟢 Exercise 1: Memoize Expensive Calculation</h1>
       <div>
         Factorial of {number}: {result}
       </div>
