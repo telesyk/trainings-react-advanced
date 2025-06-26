@@ -10,8 +10,9 @@ import Page1 from '../../context-api/src/App'
 import Page2 from '../../context-api-simple-auth/src/App'
 import Page3 from '../../use-reducer-toggle-n-counter/src/App'
 import Page4 from '../../use-reducer-todo/src/App'
+import Home from './Home'
 
-export default function Container() {
+export default function Router() {
   const { currentRout } = useContext(RouterContext)
 
   switch (currentRout) {
@@ -24,20 +25,6 @@ export default function Container() {
     case PATH_USE_REDUSER_TODO:
       return <Page4 />
     default:
-      return (
-        <div className="hero bg-base-200 flex-1">
-          <div className="hero-content text-center">
-            <div className="max-w-md">
-              <h1 className="text-5xl font-bold">Hello there</h1>
-              <p className="py-6">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
-              </p>
-              <button className="btn btn-primary">Get Started</button>
-            </div>
-          </div>
-        </div>
-      )
+      return <Home />
   }
 }

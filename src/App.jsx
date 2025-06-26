@@ -1,4 +1,4 @@
-import { Container, Footer, Navbar } from './components'
+import { Router, Footer, Navbar } from './components'
 import { RouterProvider } from './RouterContext'
 import { ThemeProvider } from './ThemeContext'
 
@@ -7,7 +7,7 @@ function App() {
     <RouterProvider>
       <ThemeProvider>
         <Navbar />
-        <Container />
+        <Router />
         <Footer />
       </ThemeProvider>
     </RouterProvider>

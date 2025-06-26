@@ -1,6 +1,7 @@
 import Navbar from './Navbar'
-import Container from './Container'
+import Router from './Router'
 import Footer from './Footer'
 import Switcher from './Switcher'
+import Home from './Home'
 
-export { Navbar, Container, Footer, Switcher }
+export { Navbar, Router, Footer, Switcher, Home }
