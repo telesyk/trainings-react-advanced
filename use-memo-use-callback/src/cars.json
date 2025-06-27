@@ -1,0 +1,1277 @@
+[
+  {
+    "name": "Mercedes-Benz",
+    "model": "C-Class",
+    "year_produced": 2022,
+    "fuel_efficiency": 14.3,
+    "safety_features": [
+      "Rear Camera",
+      "Emergency Braking",
+      "ABS",
+      "Airbags"
+    ],
+    "price": 73070.04
+  },
+  {
+    "name": "BMW",
+    "model": "3 Series",
+    "year_produced": 2024,
+    "fuel_efficiency": 9.9,
+    "safety_features": [
+      "Rear Camera",
+      "ABS",
+      "Airbags"
+    ],
+    "price": 20837.56
+  },
+  {
+    "name": "Toyota",
+    "model": "Camry",
+    "year_produced": 2005,
+    "fuel_efficiency": 9.7,
+    "safety_features": [
+      "Blind Spot Monitor",
+      "Emergency Braking",
+      "Airbags"
+    ],
+    "price": 31937.16
+  },
+  {
+    "name": "Ford",
+    "model": "Mustang",
+    "year_produced": 2013,
+    "fuel_efficiency": 8.4,
+    "safety_features": [
+      "Airbags",
+      "Blind Spot Monitor",
+      "Emergency Braking"
+    ],
+    "price": 16237.62
+  },
+  {
+    "name": "Ford",
+    "model": "Mustang",
+    "year_produced": 2021,
+    "fuel_efficiency": 8.8,
+    "safety_features": [
+      "Lane Assist",
+      "ABS",
+      "Airbags",
+      "Blind Spot Monitor"
+    ],
+    "price": 42586.3
+  },
+  {
+    "name": "Honda",
+    "model": "CR-V",
+    "year_produced": 2018,
+    "fuel_efficiency": 8.6,
+    "safety_features": [
+      "Airbags",
+      "Adaptive Cruise Control",
+      "Lane Assist",
+      "Rear Camera",
+      "ABS"
+    ],
+    "price": 37252.62
+  },
+  {
+    "name": "Nissan",
+    "model": "Altima",
+    "year_produced": 2008,
+    "fuel_efficiency": 12.8,
+    "safety_features": [
+      "Blind Spot Monitor",
+      "Rear Camera",
+      "Lane Assist",
+      "ABS"
+    ],
+    "price": 52233.44
+  },
+  {
+    "name": "Kia",
+    "model": "Sportage",
+    "year_produced": 2013,
+    "fuel_efficiency": 7.2,
+    "safety_features": [
+      "Emergency Braking",
+      "Rear Camera",
+      "ABS"
+    ],
+    "price": 32209.0
+  },
+  {
+    "name": "Toyota",
+    "model": "Camry",
+    "year_produced": 2020,
+    "fuel_efficiency": 6.4,
+    "safety_features": [
+      "Rear Camera",
+      "ABS"
+    ],
+    "price": 20566.31
+  },
+  {
+    "name": "Kia",
+    "model": "Sorento",
+    "year_produced": 2017,
+    "fuel_efficiency": 7.2,
+    "safety_features": [
+      "ABS",
+      "Blind Spot Monitor",
+      "Emergency Braking",
+      "Adaptive Cruise Control"
+    ],
+    "price": 20614.78
+  },
+  {
+    "name": "Kia",
+    "model": "Rio",
+    "year_produced": 2007,
+    "fuel_efficiency": 9.9,
+    "safety_features": [
+      "Emergency Braking",
+      "Adaptive Cruise Control",
+      "Lane Assist"
+    ],
+    "price": 50568.61
+  },
+  {
+    "name": "Volkswagen",
+    "model": "Tiguan",
+    "year_produced": 2023,
+    "fuel_efficiency": 10.9,
+    "safety_features": [
+      "Lane Assist",
+      "Airbags"
+    ],
+    "price": 45994.35
+  },
+  {
+    "name": "Ford",
+    "model": "Mustang",
+    "year_produced": 2021,
+    "fuel_efficiency": 5.3,
+    "safety_features": [
+      "Airbags",
+      "Adaptive Cruise Control"
+    ],
+    "price": 55058.48
+  },
+  {
+    "name": "Kia",
+    "model": "Sorento",
+    "year_produced": 2023,
+    "fuel_efficiency": 13.9,
+    "safety_features": [
+      "Emergency Braking",
+      "Adaptive Cruise Control"
+    ],
+    "price": 61751.49
+  },
+  {
+    "name": "Kia",
+    "model": "Forte",
+    "year_produced": 2017,
+    "fuel_efficiency": 9.9,
+    "safety_features": [
+      "Emergency Braking",
+      "Rear Camera",
+      "Lane Assist",
+      "ABS",
+      "Airbags"
+    ],
+    "price": 39835.03
+  },
+  {
+    "name": "Volkswagen",
+    "model": "Passat",
+    "year_produced": 2010,
+    "fuel_efficiency": 4.6,
+    "safety_features": [
+      "Rear Camera",
+      "Lane Assist",
+      "Blind Spot Monitor",
+      "Airbags"
+    ],
+    "price": 68607.15
+  },
+  {
+    "name": "Volkswagen",
+    "model": "Tiguan",
+    "year_produced": 2012,
+    "fuel_efficiency": 4.8,
+    "safety_features": [
+      "Lane Assist",
+      "Adaptive Cruise Control"
+    ],
+    "price": 35573.97
+  },
+  {
+    "name": "Chevrolet",
+    "model": "Malibu",
+    "year_produced": 2017,
+    "fuel_efficiency": 5.5,
+    "safety_features": [
+      "Lane Assist",
+      "Rear Camera",
+      "Airbags",
+      "ABS"
+    ],
+    "price": 46964.97
+  },
+  {
+    "name": "Mercedes-Benz",
+    "model": "GLC",
+    "year_produced": 2015,
+    "fuel_efficiency": 6.5,
+    "safety_features": [
+      "Rear Camera",
+      "ABS",
+      "Blind Spot Monitor"
+    ],
+    "price": 68633.77
+  },
+  {
+    "name": "Honda",
+    "model": "Accord",
+    "year_produced": 2014,
+    "fuel_efficiency": 7.8,
+    "safety_features": [
+      "Blind Spot Monitor",
+      "ABS",
+      "Lane Assist",
+      "Rear Camera"
+    ],
+    "price": 51072.41
+  },
+  {
+    "name": "Toyota",
+    "model": "Corolla",
+    "year_produced": 2014,
+    "fuel_efficiency": 7.7,
+    "safety_features": [
+      "Adaptive Cruise Control",
+      "Lane Assist",
+      "Airbags",
+      "Blind Spot Monitor"
+    ],
+    "price": 65156.03
+  },
+  {
+    "name": "Chevrolet",
+    "model": "Malibu",
+    "year_produced": 2012,
+    "fuel_efficiency": 4.6,
+    "safety_features": [
+      "Adaptive Cruise Control",
+      "Airbags",
+      "Emergency Braking",
+      "ABS"
+    ],
+    "price": 46663.57
+  },
+  {
+    "name": "Chevrolet",
+    "model": "Cruze",
+    "year_produced": 2023,
+    "fuel_efficiency": 12.7,
+    "safety_features": [
+      "Lane Assist",
+      "Rear Camera"
+    ],
+    "price": 62340.61
+  },
+  {
+    "name": "Chevrolet",
+    "model": "Cruze",
+    "year_produced": 2021,
+    "fuel_efficiency": 8.3,
+    "safety_features": [
+      "Rear Camera",
+      "Lane Assist",
+      "Emergency Braking",
+      "Airbags",
+      "Adaptive Cruise Control"
+    ],
+    "price": 74831.49
+  },
+  {
+    "name": "Toyota",
+    "model": "Camry",
+    "year_produced": 2015,
+    "fuel_efficiency": 9.9,
+    "safety_features": [
+      "Blind Spot Monitor",
+      "Lane Assist",
+      "Emergency Braking"
+    ],
+    "price": 55515.02
+  },
+  {
+    "name": "Hyundai",
+    "model": "Sonata",
+    "year_produced": 2016,
+    "fuel_efficiency": 6.0,
+    "safety_features": [
+      "ABS",
+      "Airbags",
+      "Lane Assist"
+    ],
+    "price": 51811.57
+  },
+  {
+    "name": "Mercedes-Benz",
+    "model": "E-Class",
+    "year_produced": 2017,
+    "fuel_efficiency": 7.8,
+    "safety_features": [
+      "Rear Camera",
+      "Airbags",
+      "Blind Spot Monitor",
+      "Adaptive Cruise Control"
+    ],
+    "price": 23958.96
+  },
+  {
+    "name": "Ford",
+    "model": "Explorer",
+    "year_produced": 2017,
+    "fuel_efficiency": 13.2,
+    "safety_features": [
+      "ABS",
+      "Emergency Braking",
+      "Adaptive Cruise Control"
+    ],
+    "price": 31595.87
+  },
+  {
+    "name": "Ford",
+    "model": "Fusion",
+    "year_produced": 2024,
+    "fuel_efficiency": 13.9,
+    "safety_features": [
+      "Airbags",
+      "ABS",
+      "Rear Camera",
+      "Lane Assist",
+      "Emergency Braking"
+    ],
+    "price": 30949.29
+  },
+  {
+    "name": "Honda",
+    "model": "Accord",
+    "year_produced": 2024,
+    "fuel_efficiency": 6.7,
+    "safety_features": [
+      "ABS",
+      "Emergency Braking",
+      "Adaptive Cruise Control",
+      "Airbags",
+      "Rear Camera"
+    ],
+    "price": 17372.06
+  },
+  {
+    "name": "Ford",
+    "model": "Mustang",
+    "year_produced": 2005,
+    "fuel_efficiency": 14.7,
+    "safety_features": [
+      "ABS",
+      "Adaptive Cruise Control"
+    ],
+    "price": 40709.52
+  },
+  {
+    "name": "Ford",
+    "model": "Explorer",
+    "year_produced": 2013,
+    "fuel_efficiency": 14.1,
+    "safety_features": [
+      "Emergency Braking",
+      "Airbags",
+      "ABS",
+      "Lane Assist",
+      "Blind Spot Monitor"
+    ],
+    "price": 49765.98
+  },
+  {
+    "name": "Hyundai",
+    "model": "Elantra",
+    "year_produced": 2025,
+    "fuel_efficiency": 10.1,
+    "safety_features": [
+      "Lane Assist",
+      "Rear Camera",
+      "Blind Spot Monitor",
+      "Emergency Braking"
+    ],
+    "price": 21939.67
+  },
+  {
+    "name": "Honda",
+    "model": "CR-V",
+    "year_produced": 2005,
+    "fuel_efficiency": 7.7,
+    "safety_features": [
+      "Adaptive Cruise Control",
+      "Blind Spot Monitor"
+    ],
+    "price": 68180.76
+  },
+  {
+    "name": "Mercedes-Benz",
+    "model": "GLC",
+    "year_produced": 2007,
+    "fuel_efficiency": 12.8,
+    "safety_features": [
+      "Blind Spot Monitor",
+      "Airbags"
+    ],
+    "price": 28889.09
+  },
+  {
+    "name": "Volkswagen",
+    "model": "Tiguan",
+    "year_produced": 2010,
+    "fuel_efficiency": 10.5,
+    "safety_features": [
+      "Lane Assist",
+      "Rear Camera",
+      "Emergency Braking",
+      "ABS"
+    ],
+    "price": 30735.8
+  },
+  {
+    "name": "Honda",
+    "model": "CR-V",
+    "year_produced": 2016,
+    "fuel_efficiency": 10.8,
+    "safety_features": [
+      "Emergency Braking",
+      "Airbags",
+      "Blind Spot Monitor",
+      "Adaptive Cruise Control"
+    ],
+    "price": 42374.81
+  },
+  {
+    "name": "Mercedes-Benz",
+    "model": "C-Class",
+    "year_produced": 2008,
+    "fuel_efficiency": 14.4,
+    "safety_features": [
+      "Lane Assist",
+      "Blind Spot Monitor",
+      "ABS",
+      "Rear Camera",
+      "Airbags"
+    ],
+    "price": 60549.41
+  },
+  {
+    "name": "Chevrolet",
+    "model": "Impala",
+    "year_produced": 2019,
+    "fuel_efficiency": 13.9,
+    "safety_features": [
+      "Lane Assist",
+      "Airbags",
+      "Rear Camera"
+    ],
+    "price": 56601.34
+  },
+  {
+    "name": "Mercedes-Benz",
+    "model": "E-Class",
+    "year_produced": 2015,
+    "fuel_efficiency": 10.3,
+    "safety_features": [
+      "Adaptive Cruise Control",
+      "Lane Assist",
+      "ABS"
+    ],
+    "price": 71701.32
+  },
+  {
+    "name": "Mercedes-Benz",
+    "model": "E-Class",
+    "year_produced": 2005,
+    "fuel_efficiency": 14.0,
+    "safety_features": [
+      "Lane Assist",
+      "Emergency Braking",
+      "Airbags",
+      "Adaptive Cruise Control",
+      "ABS"
+    ],
+    "price": 58246.03
+  },
+  {
+    "name": "Nissan",
+    "model": "Versa",
+    "year_produced": 2014,
+    "fuel_efficiency": 7.5,
+    "safety_features": [
+      "Lane Assist",
+      "Airbags",
+      "Rear Camera",
+      "Blind Spot Monitor",
+      "ABS"
+    ],
+    "price": 71771.18
+  },
+  {
+    "name": "Honda",
+    "model": "CR-V",
+    "year_produced": 2005,
+    "fuel_efficiency": 5.6,
+    "safety_features": [
+      "Rear Camera",
+      "Adaptive Cruise Control",
+      "ABS",
+      "Blind Spot Monitor"
+    ],
+    "price": 28696.12
+  },
+  {
+    "name": "Ford",
+    "model": "Mustang",
+    "year_produced": 2023,
+    "fuel_efficiency": 5.3,
+    "safety_features": [
+      "Lane Assist",
+      "ABS",
+      "Rear Camera",
+      "Blind Spot Monitor",
+      "Adaptive Cruise Control"
+    ],
+    "price": 23174.09
+  },
+  {
+    "name": "Toyota",
+    "model": "RAV4",
+    "year_produced": 2021,
+    "fuel_efficiency": 14.1,
+    "safety_features": [
+      "Adaptive Cruise Control",
+      "Airbags",
+      "ABS"
+    ],
+    "price": 34069.97
+  },
+  {
+    "name": "Volkswagen",
+    "model": "Tiguan",
+    "year_produced": 2022,
+    "fuel_efficiency": 12.2,
+    "safety_features": [
+      "Airbags",
+      "Adaptive Cruise Control"
+    ],
+    "price": 54733.19
+  },
+  {
+    "name": "Honda",
+    "model": "Fit",
+    "year_produced": 2014,
+    "fuel_efficiency": 4.6,
+    "safety_features": [
+      "Airbags",
+      "ABS",
+      "Lane Assist",
+      "Adaptive Cruise Control"
+    ],
+    "price": 15015.04
+  },
+  {
+    "name": "Kia",
+    "model": "Sportage",
+    "year_produced": 2023,
+    "fuel_efficiency": 8.5,
+    "safety_features": [
+      "Lane Assist",
+      "Emergency Braking",
+      "Adaptive Cruise Control",
+      "Blind Spot Monitor",
+      "Rear Camera"
+    ],
+    "price": 18899.04
+  },
+  {
+    "name": "Nissan",
+    "model": "Altima",
+    "year_produced": 2016,
+    "fuel_efficiency": 12.5,
+    "safety_features": [
+      "ABS",
+      "Lane Assist",
+      "Adaptive Cruise Control",
+      "Blind Spot Monitor",
+      "Emergency Braking"
+    ],
+    "price": 37989.44
+  },
+  {
+    "name": "Mercedes-Benz",
+    "model": "GLC",
+    "year_produced": 2025,
+    "fuel_efficiency": 9.5,
+    "safety_features": [
+      "Airbags",
+      "ABS",
+      "Blind Spot Monitor"
+    ],
+    "price": 37690.9
+  },
+  {
+    "name": "BMW",
+    "model": "3 Series",
+    "year_produced": 2023,
+    "fuel_efficiency": 6.9,
+    "safety_features": [
+      "Emergency Braking",
+      "Airbags",
+      "ABS",
+      "Rear Camera"
+    ],
+    "price": 22100.94
+  },
+  {
+    "name": "BMW",
+    "model": "X5",
+    "year_produced": 2021,
+    "fuel_efficiency": 4.7,
+    "safety_features": [
+      "Emergency Braking",
+      "Lane Assist",
+      "Blind Spot Monitor"
+    ],
+    "price": 45511.9
+  },
+  {
+    "name": "Honda",
+    "model": "Accord",
+    "year_produced": 2021,
+    "fuel_efficiency": 9.1,
+    "safety_features": [
+      "Lane Assist",
+      "ABS",
+      "Rear Camera",
+      "Emergency Braking",
+      "Blind Spot Monitor"
+    ],
+    "price": 71238.51
+  },
+  {
+    "name": "Honda",
+    "model": "CR-V",
+    "year_produced": 2016,
+    "fuel_efficiency": 10.8,
+    "safety_features": [
+      "Blind Spot Monitor",
+      "Rear Camera",
+      "Adaptive Cruise Control",
+      "Emergency Braking"
+    ],
+    "price": 36120.95
+  },
+  {
+    "name": "BMW",
+    "model": "X5",
+    "year_produced": 2010,
+    "fuel_efficiency": 8.7,
+    "safety_features": [
+      "Rear Camera",
+      "Adaptive Cruise Control",
+      "Blind Spot Monitor",
+      "ABS",
+      "Lane Assist"
+    ],
+    "price": 38166.21
+  },
+  {
+    "name": "Nissan",
+    "model": "Sentra",
+    "year_produced": 2005,
+    "fuel_efficiency": 9.4,
+    "safety_features": [
+      "Lane Assist",
+      "ABS",
+      "Rear Camera",
+      "Airbags"
+    ],
+    "price": 70099.96
+  },
+  {
+    "name": "Volkswagen",
+    "model": "Passat",
+    "year_produced": 2023,
+    "fuel_efficiency": 7.6,
+    "safety_features": [
+      "ABS",
+      "Airbags",
+      "Blind Spot Monitor",
+      "Lane Assist"
+    ],
+    "price": 24232.27
+  },
+  {
+    "name": "BMW",
+    "model": "5 Series",
+    "year_produced": 2024,
+    "fuel_efficiency": 8.3,
+    "safety_features": [
+      "Blind Spot Monitor",
+      "Emergency Braking",
+      "Lane Assist"
+    ],
+    "price": 68150.0
+  },
+  {
+    "name": "Hyundai",
+    "model": "Santa Fe",
+    "year_produced": 2011,
+    "fuel_efficiency": 13.1,
+    "safety_features": [
+      "Rear Camera",
+      "Emergency Braking",
+      "ABS",
+      "Airbags"
+    ],
+    "price": 46358.98
+  },
+  {
+    "name": "Hyundai",
+    "model": "Sonata",
+    "year_produced": 2021,
+    "fuel_efficiency": 7.7,
+    "safety_features": [
+      "Adaptive Cruise Control",
+      "Rear Camera",
+      "Lane Assist",
+      "ABS",
+      "Blind Spot Monitor"
+    ],
+    "price": 76114.79
+  },
+  {
+    "name": "Kia",
+    "model": "Forte",
+    "year_produced": 2014,
+    "fuel_efficiency": 7.1,
+    "safety_features": [
+      "Lane Assist",
+      "Airbags"
+    ],
+    "price": 71857.81
+  },
+  {
+    "name": "Ford",
+    "model": "Mustang",
+    "year_produced": 2017,
+    "fuel_efficiency": 13.4,
+    "safety_features": [
+      "Airbags",
+      "Lane Assist",
+      "Rear Camera",
+      "Adaptive Cruise Control",
+      "Emergency Braking"
+    ],
+    "price": 33102.05
+  },
+  {
+    "name": "Mercedes-Benz",
+    "model": "GLE",
+    "year_produced": 2023,
+    "fuel_efficiency": 12.5,
+    "safety_features": [
+      "Emergency Braking",
+      "ABS",
+      "Blind Spot Monitor",
+      "Rear Camera",
+      "Airbags"
+    ],
+    "price": 73166.96
+  },
+  {
+    "name": "Volkswagen",
+    "model": "Polo",
+    "year_produced": 2017,
+    "fuel_efficiency": 5.4,
+    "safety_features": [
+      "Airbags",
+      "Rear Camera",
+      "Lane Assist",
+      "Blind Spot Monitor"
+    ],
+    "price": 18458.37
+  },
+  {
+    "name": "Honda",
+    "model": "CR-V",
+    "year_produced": 2016,
+    "fuel_efficiency": 12.4,
+    "safety_features": [
+      "Airbags",
+      "Emergency Braking",
+      "Blind Spot Monitor",
+      "Rear Camera"
+    ],
+    "price": 66039.26
+  },
+  {
+    "name": "Mercedes-Benz",
+    "model": "GLC",
+    "year_produced": 2011,
+    "fuel_efficiency": 13.7,
+    "safety_features": [
+      "Rear Camera",
+      "Emergency Braking",
+      "ABS",
+      "Adaptive Cruise Control",
+      "Lane Assist"
+    ],
+    "price": 70325.94
+  },
+  {
+    "name": "Ford",
+    "model": "Fusion",
+    "year_produced": 2016,
+    "fuel_efficiency": 8.6,
+    "safety_features": [
+      "Rear Camera",
+      "Adaptive Cruise Control",
+      "Airbags",
+      "Blind Spot Monitor"
+    ],
+    "price": 56883.35
+  },
+  {
+    "name": "BMW",
+    "model": "X5",
+    "year_produced": 2016,
+    "fuel_efficiency": 4.7,
+    "safety_features": [
+      "ABS",
+      "Adaptive Cruise Control"
+    ],
+    "price": 50543.31
+  },
+  {
+    "name": "BMW",
+    "model": "3 Series",
+    "year_produced": 2021,
+    "fuel_efficiency": 11.9,
+    "safety_features": [
+      "Adaptive Cruise Control",
+      "Airbags",
+      "Lane Assist",
+      "Emergency Braking",
+      "Blind Spot Monitor"
+    ],
+    "price": 72645.78
+  },
+  {
+    "name": "Ford",
+    "model": "Fusion",
+    "year_produced": 2011,
+    "fuel_efficiency": 14.3,
+    "safety_features": [
+      "Lane Assist",
+      "Blind Spot Monitor",
+      "ABS",
+      "Airbags"
+    ],
+    "price": 34791.77
+  },
+  {
+    "name": "BMW",
+    "model": "3 Series",
+    "year_produced": 2022,
+    "fuel_efficiency": 10.8,
+    "safety_features": [
+      "Airbags",
+      "Adaptive Cruise Control",
+      "Blind Spot Monitor",
+      "Rear Camera",
+      "Lane Assist"
+    ],
+    "price": 65682.32
+  },
+  {
+    "name": "Ford",
+    "model": "Mustang",
+    "year_produced": 2020,
+    "fuel_efficiency": 4.7,
+    "safety_features": [
+      "Adaptive Cruise Control",
+      "Blind Spot Monitor",
+      "Airbags",
+      "Rear Camera"
+    ],
+    "price": 43761.83
+  },
+  {
+    "name": "Kia",
+    "model": "Sportage",
+    "year_produced": 2014,
+    "fuel_efficiency": 11.5,
+    "safety_features": [
+      "Blind Spot Monitor",
+      "Airbags",
+      "ABS"
+    ],
+    "price": 67444.06
+  },
+  {
+    "name": "Mercedes-Benz",
+    "model": "GLC",
+    "year_produced": 2010,
+    "fuel_efficiency": 10.0,
+    "safety_features": [
+      "Lane Assist",
+      "ABS"
+    ],
+    "price": 27368.96
+  },
+  {
+    "name": "Kia",
+    "model": "Sorento",
+    "year_produced": 2023,
+    "fuel_efficiency": 9.9,
+    "safety_features": [
+      "Rear Camera",
+      "ABS",
+      "Adaptive Cruise Control",
+      "Airbags"
+    ],
+    "price": 68858.4
+  },
+  {
+    "name": "Chevrolet",
+    "model": "Equinox",
+    "year_produced": 2007,
+    "fuel_efficiency": 12.8,
+    "safety_features": [
+      "Blind Spot Monitor",
+      "Lane Assist",
+      "Adaptive Cruise Control",
+      "ABS",
+      "Rear Camera"
+    ],
+    "price": 32616.53
+  },
+  {
+    "name": "Ford",
+    "model": "Explorer",
+    "year_produced": 2020,
+    "fuel_efficiency": 14.7,
+    "safety_features": [
+      "Blind Spot Monitor",
+      "Lane Assist"
+    ],
+    "price": 40008.46
+  },
+  {
+    "name": "BMW",
+    "model": "X3",
+    "year_produced": 2023,
+    "fuel_efficiency": 10.1,
+    "safety_features": [
+      "Blind Spot Monitor",
+      "Airbags",
+      "Emergency Braking",
+      "Rear Camera",
+      "Lane Assist"
+    ],
+    "price": 33026.16
+  },
+  {
+    "name": "Ford",
+    "model": "Explorer",
+    "year_produced": 2017,
+    "fuel_efficiency": 4.9,
+    "safety_features": [
+      "Lane Assist",
+      "Rear Camera",
+      "Adaptive Cruise Control"
+    ],
+    "price": 33067.12
+  },
+  {
+    "name": "Chevrolet",
+    "model": "Cruze",
+    "year_produced": 2012,
+    "fuel_efficiency": 7.9,
+    "safety_features": [
+      "Rear Camera",
+      "Emergency Braking",
+      "Blind Spot Monitor",
+      "ABS",
+      "Airbags"
+    ],
+    "price": 51000.88
+  },
+  {
+    "name": "Kia",
+    "model": "Rio",
+    "year_produced": 2014,
+    "fuel_efficiency": 8.9,
+    "safety_features": [
+      "Rear Camera",
+      "Blind Spot Monitor",
+      "Lane Assist",
+      "Emergency Braking",
+      "ABS"
+    ],
+    "price": 28348.22
+  },
+  {
+    "name": "Ford",
+    "model": "Explorer",
+    "year_produced": 2011,
+    "fuel_efficiency": 11.8,
+    "safety_features": [
+      "Lane Assist",
+      "Rear Camera",
+      "Blind Spot Monitor",
+      "Adaptive Cruise Control",
+      "Airbags"
+    ],
+    "price": 52124.71
+  },
+  {
+    "name": "Chevrolet",
+    "model": "Malibu",
+    "year_produced": 2010,
+    "fuel_efficiency": 11.7,
+    "safety_features": [
+      "Blind Spot Monitor",
+      "Adaptive Cruise Control"
+    ],
+    "price": 51129.93
+  },
+  {
+    "name": "BMW",
+    "model": "5 Series",
+    "year_produced": 2009,
+    "fuel_efficiency": 10.3,
+    "safety_features": [
+      "Blind Spot Monitor",
+      "Airbags",
+      "Lane Assist",
+      "ABS",
+      "Rear Camera"
+    ],
+    "price": 75270.31
+  },
+  {
+    "name": "Volkswagen",
+    "model": "Golf",
+    "year_produced": 2018,
+    "fuel_efficiency": 13.2,
+    "safety_features": [
+      "Lane Assist",
+      "Emergency Braking",
+      "Rear Camera",
+      "Adaptive Cruise Control",
+      "ABS"
+    ],
+    "price": 65004.91
+  },
+  {
+    "name": "Honda",
+    "model": "Civic",
+    "year_produced": 2014,
+    "fuel_efficiency": 13.4,
+    "safety_features": [
+      "Airbags",
+      "Lane Assist",
+      "Rear Camera",
+      "Adaptive Cruise Control",
+      "Blind Spot Monitor"
+    ],
+    "price": 74959.26
+  },
+  {
+    "name": "Ford",
+    "model": "Focus",
+    "year_produced": 2006,
+    "fuel_efficiency": 7.6,
+    "safety_features": [
+      "ABS",
+      "Emergency Braking",
+      "Adaptive Cruise Control",
+      "Lane Assist",
+      "Airbags"
+    ],
+    "price": 36966.68
+  },
+  {
+    "name": "Honda",
+    "model": "Fit",
+    "year_produced": 2012,
+    "fuel_efficiency": 6.1,
+    "safety_features": [
+      "Adaptive Cruise Control",
+      "Rear Camera",
+      "Lane Assist",
+      "Airbags",
+      "Emergency Braking"
+    ],
+    "price": 56861.36
+  },
+  {
+    "name": "Kia",
+    "model": "Sorento",
+    "year_produced": 2024,
+    "fuel_efficiency": 13.1,
+    "safety_features": [
+      "Airbags",
+      "Adaptive Cruise Control",
+      "Rear Camera"
+    ],
+    "price": 37383.82
+  },
+  {
+    "name": "Honda",
+    "model": "Fit",
+    "year_produced": 2019,
+    "fuel_efficiency": 8.8,
+    "safety_features": [
+      "Airbags",
+      "Blind Spot Monitor",
+      "Adaptive Cruise Control",
+      "ABS",
+      "Rear Camera"
+    ],
+    "price": 35159.64
+  },
+  {
+    "name": "Toyota",
+    "model": "RAV4",
+    "year_produced": 2021,
+    "fuel_efficiency": 5.8,
+    "safety_features": [
+      "Lane Assist",
+      "Airbags",
+      "Emergency Braking",
+      "Blind Spot Monitor"
+    ],
+    "price": 18701.81
+  },
+  {
+    "name": "Toyota",
+    "model": "Prius",
+    "year_produced": 2010,
+    "fuel_efficiency": 5.1,
+    "safety_features": [
+      "ABS",
+      "Emergency Braking",
+      "Adaptive Cruise Control",
+      "Lane Assist"
+    ],
+    "price": 72181.26
+  },
+  {
+    "name": "Ford",
+    "model": "Focus",
+    "year_produced": 2008,
+    "fuel_efficiency": 4.8,
+    "safety_features": [
+      "ABS",
+      "Rear Camera"
+    ],
+    "price": 22239.84
+  },
+  {
+    "name": "Hyundai",
+    "model": "Santa Fe",
+    "year_produced": 2010,
+    "fuel_efficiency": 14.2,
+    "safety_features": [
+      "Adaptive Cruise Control",
+      "Blind Spot Monitor",
+      "Emergency Braking",
+      "Lane Assist",
+      "ABS"
+    ],
+    "price": 26572.89
+  },
+  {
+    "name": "Mercedes-Benz",
+    "model": "GLE",
+    "year_produced": 2023,
+    "fuel_efficiency": 10.3,
+    "safety_features": [
+      "ABS",
+      "Rear Camera",
+      "Emergency Braking",
+      "Airbags",
+      "Lane Assist"
+    ],
+    "price": 71410.79
+  },
+  {
+    "name": "Nissan",
+    "model": "Rogue",
+    "year_produced": 2017,
+    "fuel_efficiency": 9.9,
+    "safety_features": [
+      "Adaptive Cruise Control",
+      "Emergency Braking",
+      "Lane Assist",
+      "ABS"
+    ],
+    "price": 55900.48
+  },
+  {
+    "name": "Chevrolet",
+    "model": "Equinox",
+    "year_produced": 2009,
+    "fuel_efficiency": 8.3,
+    "safety_features": [
+      "Airbags",
+      "Emergency Braking"
+    ],
+    "price": 23815.14
+  },
+  {
+    "name": "Ford",
+    "model": "Fusion",
+    "year_produced": 2011,
+    "fuel_efficiency": 13.1,
+    "safety_features": [
+      "Airbags",
+      "Lane Assist"
+    ],
+    "price": 26715.16
+  },
+  {
+    "name": "Hyundai",
+    "model": "Santa Fe",
+    "year_produced": 2008,
+    "fuel_efficiency": 6.1,
+    "safety_features": [
+      "Airbags",
+      "Adaptive Cruise Control"
+    ],
+    "price": 60486.95
+  },
+  {
+    "name": "Ford",
+    "model": "Fusion",
+    "year_produced": 2008,
+    "fuel_efficiency": 9.5,
+    "safety_features": [
+      "ABS",
+      "Airbags"
+    ],
+    "price": 26256.22
+  }
+]

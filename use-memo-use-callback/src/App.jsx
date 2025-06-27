@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Factorial, { INPUT_NAME } from './Task1'
 import Task2 from './Task2'
+import Task3 from './Task3'
 
 export default function App() {
   const [facNum, setFacNum] = useState(1)
@@ -13,6 +14,7 @@ export default function App() {
       <div className="divider"></div>
       <Task2 />
       <div className="divider"></div>
+      <Task3 />
     </div>
   )
 }

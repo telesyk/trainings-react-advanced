@@ -49,3 +49,24 @@ function SearchList({ items, query }) {
   )
 }
 ```
+
+### 🎯 **Expected Result for Exercise 3: `useMemo` for Filtering**
+
+The component should:
+
+1. **Receive a list of items and a query string** as props.
+2. **Filter the list of items** based on whether each item’s `name` includes the `query` string (case-insensitive).
+3. **Optimize the filtering process** using `useMemo`, so that the filtering only re-runs when either:
+
+   - the list of `items` changes, or
+   - the `query` string changes.
+
+4. **Render the filtered items** inside a `<ul>` as individual `<li>` elements, each using a unique key (`item.id`).
+
+---
+
+### ✅ Functional Expectations
+
+- Filtering logic **should not recompute** unnecessarily when props don’t change.
+- The UI must **accurately reflect** the current query by listing only matching names.
+- Performance improves on large lists by preventing redundant filtering during unrelated re-renders.
