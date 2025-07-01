@@ -13,7 +13,7 @@ import Page2 from '../../context-api-simple-auth/src/App'
 import Page3 from '../../use-reducer-toggle-n-counter/src/App'
 import Page4 from '../../use-reducer-todo/src/App'
 import Page5 from '../../use-memo-use-callback/src/App'
-import Page5 from '../../use-custom-hook/src/App'
+import Page6 from '../../use-custom-hook/src/App'
 import Home from './Home'
 
 export default function Router() {
