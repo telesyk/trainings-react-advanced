@@ -28,7 +28,7 @@ export function usePrevious(newValue) {
   return ref.current
 }
 
-export function useLocalStorage(key, value) {
+export function useLocalStorage(key, initialValue) {
   if (!key) return
 
   const [currentValue, setValue] = useState()
@@ -40,7 +40,7 @@ export function useLocalStorage(key, value) {
 
   useEffect(() => {
     if (!localStorage.getItem(key)) {
-      setStorageValue(value || '')
+      setStorageValue(initialValue || '')
     } else {
       setValue(localStorage.getItem(key))
     }
@@ -48,3 +48,27 @@ export function useLocalStorage(key, value) {
 
   return [currentValue, setStorageValue]
 }
+
+/* // possible solution generated w LLM
+function useLocalStorage(key, initialValue) {
+  const [value, setValue] = useState(() => {
+    try {
+      const stored = localStorage.getItem(key);
+      return stored !== null ? JSON.parse(stored) : initialValue;
+    } catch (error) {
+      console.warn('Error reading from localStorage', error);
+      return initialValue;
+    }
+  });
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(key, JSON.stringify(value));
+    } catch (error) {
+      console.warn('Error writing to localStorage', error);
+    }
+  }, [key, value]);
+
+  return [value, setValue];
+}
+ */
