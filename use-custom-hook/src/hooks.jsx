@@ -27,3 +27,24 @@ export function usePrevious(newValue) {
 
   return ref.current
 }
+
+export function useLocalStorage(key, value) {
+  if (!key) return
+
+  const [currentValue, setValue] = useState()
+
+  const setStorageValue = newValue => {
+    setValue(newValue)
+    localStorage.setItem(key, newValue)
+  }
+
+  useEffect(() => {
+    if (!localStorage.getItem(key)) {
+      setStorageValue(value || '')
+    } else {
+      setValue(localStorage.getItem(key))
+    }
+  }, [])
+
+  return [currentValue, setStorageValue]
+}
