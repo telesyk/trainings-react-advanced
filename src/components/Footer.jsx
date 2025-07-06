@@ -1,5 +1,7 @@
 import viteLogo from '/vite.svg'
 import reactLogo from '/react.svg'
+import reactIconsLogo from '/react-icons.svg'
+import reactRouterLogo from '/react-router-dark.svg'
 
 export default function Footer() {
   return (
@@ -18,12 +20,26 @@ export default function Footer() {
         </svg>
         <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
       </aside>
-      <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-        <a>
-          <img src={viteLogo} className="w-6 h-6" alt="Vite logo" />
+      <nav className="grid-flow-col gap-4 md:justify-self-end">
+        <a className="w-16 h-8">
+          <div className="md:tooltip" data-tip="React Router logo">
+            <img src={reactRouterLogo} alt="React Router logo" />
+          </div>
         </a>
-        <a>
-          <img src={reactLogo} className="w-6 h-6" alt="React logo" />
+        <a className="w-8 h-8">
+          <div className="md:tooltip" data-tip="React Icons logo">
+            <img src={reactIconsLogo} alt="React Icons logo" />
+          </div>
+        </a>
+        <a className="w-8 h-8">
+          <div className="md:tooltip" data-tip="Vite logo">
+            <img src={viteLogo} alt="Vite logo" />
+          </div>
+        </a>
+        <a className="w-8 h-8">
+          <div className="md:tooltip" data-tip="React logo">
+            <img src={reactLogo} alt="React logo" />
+          </div>
         </a>
       </nav>
     </footer>

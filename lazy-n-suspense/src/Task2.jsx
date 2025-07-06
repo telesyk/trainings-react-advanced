@@ -13,7 +13,7 @@ export default function Task2() {
       <Task2Nav />
       <Routes>
         <Route
-          path="home"
+          index
           element={
             <Suspense fallback={<PageLoader />}>
               <Home />
