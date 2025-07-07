@@ -9,3 +9,4 @@ List of projects:
 - [use-memo-use-callback](https://github.com/telesyk/trainings-react-advanced/tree/main/use-memo-use-callback#readme)
 - [use-custom-hook](https://github.com/telesyk/trainings-react-advanced/tree/main/use-custom-hook#readme)
 - [lazy-n-suspense](https://github.com/telesyk/trainings-react-advanced/tree/main/lazy-n-suspense#readme)
+- [error-boundaries](https://github.com/telesyk/trainings-react-advanced/tree/main/error-boundaries#readme)

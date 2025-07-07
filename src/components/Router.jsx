@@ -8,6 +8,7 @@ import {
   PATH_USE_MEMO_USE_CALLBACK,
   PATH_USE_CUSTOM_HOOK,
   PATH_LAZY_N_SUSPENSE,
+  PATH_ERROR_BOUNDARIES,
 } from '../constants'
 import Page1 from '../../context-api/src/App'
 import Page2 from '../../context-api-simple-auth/src/App'
@@ -16,6 +17,7 @@ import Page4 from '../../use-reducer-todo/src/App'
 import Page5 from '../../use-memo-use-callback/src/App'
 import Page6 from '../../use-custom-hook/src/App'
 import Page7 from '../../lazy-n-suspense/src/App'
+import Page8 from '../../error-boundaries/src/App'
 import Home from './Home'
 
 export default function Router() {
@@ -36,6 +38,8 @@ export default function Router() {
       return <Page6 />
     case PATH_LAZY_N_SUSPENSE:
       return <Page7 />
+    case PATH_ERROR_BOUNDARIES:
+      return <Page8 />
     default:
       return <Home />
   }
